@@ -1,9 +1,11 @@
 [submodule "st"]
 	path = st
 	url = git@github.com:Wint3rmute/st.git
+	branch = work_config
 [submodule "dwm"]
 	path = dwm
 	url = https://github.com/Wint3rmute/dwm.git
+	branch = work_config
 [submodule "suckless-themes"]
 	path = suckless-themes
 	url = git@github.com:Wint3rmute/suckless-themes.git

@@ -1,5 +1,6 @@
 all: submodules dwm st
 
+# TODO: check if this is needed
 .PHONY: submodules dwm st
 
 submodules:

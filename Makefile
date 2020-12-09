@@ -6,6 +6,9 @@ all: submodules dwm st
 submodules:
 	git submodule update --init
 
+clean:
+	git submodule foreach 'make clean'
+
 dwm:
 	cd dwm && make && sudo make install
 
